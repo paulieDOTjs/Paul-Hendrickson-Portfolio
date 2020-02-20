@@ -1,0 +1,25 @@
+.MainContainer {
+  background-color: black;
+  padding: 12px;
+  padding-top: 4px;
+  opacity: 0.8;
+  border: 4px white solid;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+.ProfilePic {
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 4px white solid;
+  opacity: 0.8;
+}
+
+.Stretchy {
+  align-items: stretch;
+}
