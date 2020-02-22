@@ -1,16 +1,8 @@
 .ContainMe {
-  grid-column-start: 1;
   color: white;
-  padding: 120px;
   overflow-y: scroll;
-  height: Calc(100vh - 240px);
 }
 
-.PortfolioSection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 48px;
-}
 
 .PortfolioCard,
 .MainContainer {

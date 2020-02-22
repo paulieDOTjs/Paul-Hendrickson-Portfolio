@@ -4,7 +4,6 @@ import "./App.css";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import MainPage from "./Pages/MainPage";
 import PortfolioPage from "./Pages/PortfolioPage";
-import Header from "./Components/Header/Header";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route path="/portfolio" component={PortfolioPage} />
         </Switch>
         <Sidebar />
-        {/* <Header /> */}
       </Router>
     </div>
   );

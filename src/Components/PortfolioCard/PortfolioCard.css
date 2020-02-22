@@ -16,3 +16,7 @@
   justify-content: space-around;
   align-items: space-around;
 }
+
+.PortfolioImage {
+  max-width: 100%;
+}

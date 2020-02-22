@@ -1,0 +1,48 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 96px;
+  grid-template-rows: 1px 1fr;
+  height: 100vh;
+}
+
+.ContainMe {
+  grid-column-start: 1;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.Main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 48px;
+  max-width: 100%;
+}
+
+.ProfilePic {
+  grid-column-start: 2;
+  width: Calc(100% - 24px);
+}
+
+.PortfolioSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px;
+}
+
+.PseudoBorder {
+  padding-left: 4px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.NavList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
