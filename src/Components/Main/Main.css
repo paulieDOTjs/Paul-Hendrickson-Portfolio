@@ -1,3 +1,8 @@
+.Main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 48px;
+}
 .MainContainer {
   padding: 12px;
   padding-top: 4px;
@@ -10,6 +15,7 @@
 }
 
 .ProfilePic {
+  grid-column-start: 2;
   display: flex;
   align-self: center;
   max-width: 100%;

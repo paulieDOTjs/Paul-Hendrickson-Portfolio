@@ -28,6 +28,10 @@ a:hover {
   text-decoration: none;
 }
 
+.WordNav {
+  font-size: 12px;
+}
+
 .UpperCaseLetter {
   font-size: 36px;
 }
