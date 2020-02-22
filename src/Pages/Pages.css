@@ -3,4 +3,12 @@
   grid-row-start: 2;
   color: white;
   padding: 120px;
+  overflow-y: scroll;
+  opacity: 0.8;
+}
+
+.PortfolioSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px;
 }
