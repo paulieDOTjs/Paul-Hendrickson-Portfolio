@@ -7,7 +7,12 @@ function PortfolioCard(props) {
       <h1>{props.props.name}</h1>
       <div className="MyRow">
         <span>
-          <a style={{ textDecoration: "underline" }} href={props.props.URL}>
+          <a
+            style={{ textDecoration: "underline" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            href={props.props.URL}
+          >
             Github
           </a>
         </span>
@@ -17,6 +22,8 @@ function PortfolioCard(props) {
             : " Click here for: " && (
                 <a
                   style={{ textDecoration: "underline" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href={props.props.liveSite}
                 >
                   Live Site

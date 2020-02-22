@@ -24,38 +24,60 @@ function Sidebar() {
             {/* Resume */}
             <a
               className="WordNav"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://drive.google.com/open?id=1Kh5WEMasbLFWzCspyEu7Mf5XuJGByyXu"
             >
               <span className="UpperCaseLetter">R</span>esume
             </a>
           </li>
           <li className="NavListItem">
-            <a href="https://github.com/paulrobhendrickson">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/paulrobhendrickson"
+            >
               {/* Github */}
               <i className="fab fa-github"></i>
             </a>
           </li>
           <li className="NavListItem">
-            <a href="https://www.linkedin.com/in/paul-hendrickson-718332186/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/paul-hendrickson-718332186/"
+            >
               {/* Linkedin */}
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li className="NavListItem">
             {/* Twitter */}
-            <a href="https://twitter.com/paulie_js">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/paulie_js"
+            >
               <i className="fab fa-twitter"></i>
             </a>
           </li>
           <li className="NavListItem">
             {/* Phone */}
-            <a href="tel:+19522502195">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:+19522502195"
+            >
               <i className="fas fa-phone"></i>
             </a>
           </li>
           <li className="NavListItem">
             {/* Email */}
-            <a href="mailto:paulrobhendrickson@gmail.com">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:paulrobhendrickson@gmail.com"
+            >
               <i className="fas fa-envelope"></i>
             </a>
           </li>
