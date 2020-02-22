@@ -1,5 +1,5 @@
 .PortfolioCard {
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.8);
   padding: 12px;
   padding-top: 4px;
   border: 4px white solid;
@@ -16,4 +16,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: space-around;
+}
+
+.MyImages {
+  opacity: 1;
 }
