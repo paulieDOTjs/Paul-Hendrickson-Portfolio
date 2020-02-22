@@ -9,7 +9,6 @@ a {
   font-weight: bolder;
 }
 
-
 h1,
 h2,
 h3,
@@ -33,4 +32,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   /* background by SVGBackgrounds.com */
+}
+
+.PortfolioCard,
+.MainContainer {
+  background-color: rgb(0, 0, 0, 0.7);
 }
