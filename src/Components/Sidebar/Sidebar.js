@@ -9,17 +9,20 @@ function Sidebar() {
         <ul className="NavList">
           <li className="NavListItem">
             <Link to="/">
+              {/* About */}
               <span className="UpperCaseLetter">A</span>bout
             </Link>
           </li>
           <li className="NavListItem">
             <Link to="/portfolio">
+              {/* Portfolio */}
               <span className="UpperCaseLetter">P</span>
               <span style={{ marginLeft: "-4px" }}>ortfolio</span>
             </Link>
           </li>
           <li className="NavListItem">
-            <a href="https://www.google.com">
+            {/* Resume */}
+            <a href="https://drive.google.com/open?id=1Kh5WEMasbLFWzCspyEu7Mf5XuJGByyXu">
               <span className="UpperCaseLetter">R</span>esume
             </a>
           </li>
