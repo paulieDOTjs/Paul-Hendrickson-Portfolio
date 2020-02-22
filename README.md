@@ -2,4 +2,4 @@
 
 Live site here:
 
-https://paul-hendrickson-portfolio.netlify.com/
+http://paulhendricksondevelopment.com/
