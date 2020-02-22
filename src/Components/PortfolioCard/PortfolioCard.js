@@ -26,7 +26,7 @@ function PortfolioCard(props) {
       </div>
       <p style={{ margin: "12px" }}>{props.props.description}</p>
       <img
-      className='PortfolioImage'
+        className="PortfolioImage"
         alt={props.props.name}
         src={process.env.PUBLIC_URL + props.props.image}
       />
