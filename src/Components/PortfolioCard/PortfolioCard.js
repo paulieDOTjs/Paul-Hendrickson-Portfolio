@@ -8,6 +8,7 @@ function PortfolioCard(props) {
       <div className="MyRow">
         <span>
           <a
+            className="PortfolioLink"
             style={{ textDecoration: "underline" }}
             target="_blank"
             rel="noopener noreferrer"
@@ -21,6 +22,7 @@ function PortfolioCard(props) {
             ? "Live site: N/A"
             : " Click here for: " && (
                 <a
+                  className="PortfolioLink"
                   style={{ textDecoration: "underline" }}
                   target="_blank"
                   rel="noopener noreferrer"

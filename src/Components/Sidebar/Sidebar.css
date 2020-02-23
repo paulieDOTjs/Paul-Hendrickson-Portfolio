@@ -16,6 +16,8 @@ a {
 }
 
 a:hover {
+  transition: 0.3s;
+
   color: #ff8ae4;
   text-decoration: none;
 }
@@ -42,4 +44,9 @@ a:hover {
 
 .Sidebar {
   height: 100%;
+}
+
+.PortfolioLink {
+  transition: 0.3s;
+  color: #9149d6;
 }
