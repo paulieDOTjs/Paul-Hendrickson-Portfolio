@@ -39,6 +39,10 @@ function PortfolioCard(props) {
         alt={props.props.name}
         src={process.env.PUBLIC_URL + props.props.image}
       />
+      <p>
+        <span style={{ fontWeight: "bolder" }}>Technology Used:</span>{" "}
+        {props.props.technologies}
+      </p>
     </div>
   );
 }
