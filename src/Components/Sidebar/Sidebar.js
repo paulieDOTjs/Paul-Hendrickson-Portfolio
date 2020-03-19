@@ -20,8 +20,7 @@ function Sidebar() {
               <span style={{ marginLeft: "-4px" }}>ortfolio</span>
             </Link>
           </li>
-          <li className="NavListItem">
-            {/* Resume */}
+          {/* <li className="NavListItem">
             <a
               className="WordNav"
               target="_blank"
@@ -30,7 +29,7 @@ function Sidebar() {
             >
               <span className="UpperCaseLetter">R</span>esume
             </a>
-          </li>
+          </li> */}
           <li className="NavListItem">
             <a
               target="_blank"
