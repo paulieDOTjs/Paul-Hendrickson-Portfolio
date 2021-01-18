@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 function Sidebar() {
@@ -38,16 +38,6 @@ function Sidebar() {
             >
               {/* Github */}
               <i className="fab fa-github"></i>
-            </a>
-          </li>
-          <li className="NavListItem">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/paul-hendrickson-718332186/"
-            >
-              {/* Linkedin */}
-              <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li className="NavListItem">
