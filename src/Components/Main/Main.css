@@ -1,6 +1,7 @@
 .MainContainer {
   padding: 12px;
   padding-top: 4px;
+  margin-top: 4px;
   border: 4px white solid;
   height: 100%;
   display: flex;
