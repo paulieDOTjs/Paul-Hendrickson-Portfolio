@@ -12,7 +12,7 @@ function MainPage() {
         Portfolio
       </h1>
       <div className="PortfolioSection">
-        <Tween from={{ opacity: 0 }} stagger={0.5} duration={3}>
+        <Tween from={{ opacity: 0 }} stagger={0.35} duration={1.75}>
           {PortfolioInfo.map((data) => (
             <div key={data.name + "wrapper"}>
               <PortfolioCard key={data.name} props={data} />
