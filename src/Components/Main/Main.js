@@ -8,10 +8,10 @@ function Main() {
   return (
     <div className="Main">
       <div className="MainContainer Stretchy">
-        <Tween from={{ y: "20px", x: "40px" }} delay={2}>
+        <Tween from={{ opacity: 0, y: "20px", x: "40px" }} delay={2}>
           <h1 style={{ marginBottom: "24px" }}>Hello, my name is Paul</h1>
         </Tween>
-        <Tween from={{ y: "-20px", x: "-40px" }} delay={1}>
+        <Tween from={{ opacity: 0, y: "-20px", x: "-40px" }} delay={1}>
           <h3>
             I am a full-stack web developer well-versed in HTML, CSS and
             JavaScript and am comfortable handling full stack front and back end
