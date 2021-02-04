@@ -25,7 +25,7 @@ function Main() {
       <Tween
         from={{ opacity: 0, transform: "translate3d(100vw, 0, 0)" }}
         ease="back.out(1.4)"
-        delay={2.5}
+        delay={3}
       >
         <img
           className="ProfilePic"
