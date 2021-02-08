@@ -7,9 +7,7 @@ import PortfolioCard from "../Components/PortfolioCard/PortfolioCard";
 function MainPage() {
   return (
     <div className="ContainMe">
-      <h1 style={{ top: "-100px", textAlign: "center", marginBottom: "48px" }}>
-        Portfolio
-      </h1>
+      <h1 className="subheading">Portfolio</h1>
       <div className="PortfolioSection">
         <Tween from={{ opacity: 0 }} stagger={0.5} duration={1.5}>
           {PortfolioInfo.map((data) => (

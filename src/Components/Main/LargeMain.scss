@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 96px;
     height: 100vh;
   }
+
   .Main {
     margin: auto;
     grid-template-columns: 1fr 400px;
@@ -33,7 +34,11 @@
   .ContainMe {
     height: 100vh;
     overflow-y: scroll;
-    padding-top: 48px;
+    .subheading {
+      text-align: center;
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
   }
 
   .PortfolioSection {
