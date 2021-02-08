@@ -20,3 +20,7 @@
 .PortfolioImage {
   max-width: 100%;
 }
+
+.PortfolioCard {
+  background-color: rgb(0, 0, 0, 0.7);
+}

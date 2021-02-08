@@ -1,0 +1,48 @@
+@media (min-width: 481px) and (max-width: 700px) {
+  .App {
+    display: grid;
+    height: 100vh;
+  }
+
+  .Main {
+    display: grid;
+    overflow-y: scroll;
+    h1 {
+      margin-bottom: 0;
+      grid-row: 1;
+    }
+    h3 {
+      margin-top: 1vw;
+    }
+  }
+
+  .ProfilePic {
+    grid-row: 2;
+    margin: 48px;
+    width: calc(100% - 96px);
+  }
+
+  .PortfolioSection {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 48px;
+  }
+
+  .PseudoBorder {
+    padding-bottom: 16px;
+    grid-row-start: 1;
+  }
+
+  .NavList {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Sidebar {
+    padding-bottom: 12px;
+  }
+}

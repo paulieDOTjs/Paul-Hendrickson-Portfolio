@@ -1,0 +1,63 @@
+@media (min-width: 1001px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 96px;
+    height: 100vh;
+  }
+  .Main {
+    margin: auto;
+    grid-template-columns: 1fr 400px;
+    display: grid;
+    max-width: 80%;
+    h1 {
+      grid-column-start: 1;
+      max-width: 680px;
+    }
+    h3 {
+      max-width: 680px;
+      margin-top: 48px;
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+  }
+
+  .ProfilePic {
+    grid-row: 1/3;
+    grid-column-start: 2;
+    margin: 12px;
+    width: calc(100% - 24px);
+    display: flex;
+    align-self: center;
+  }
+
+  .ContainMe {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .PortfolioSection {
+    margin: 48px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px;
+  }
+
+  .PseudoBorder {
+    padding-left: 4px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .NavList {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
