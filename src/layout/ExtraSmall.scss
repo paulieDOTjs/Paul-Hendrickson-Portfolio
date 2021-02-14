@@ -5,6 +5,7 @@
   }
 
   .Main {
+    min-height: calc(1vh - 103px);
     display: grid;
     overflow-y: scroll;
     h1 {
@@ -34,15 +35,23 @@
     grid-row-start: 1;
   }
 
+  .NavBar {
+    padding-bottom: 12px;
+  }
+
   .NavList {
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
   }
 
-  .Sidebar {
-    padding-bottom: 12px;
+  .NavListItem {
+    min-width: 25%;
+  }
+
+  .WordNav {
+    min-width: 50%;
   }
 }

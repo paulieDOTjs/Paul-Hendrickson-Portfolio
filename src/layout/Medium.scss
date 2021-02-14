@@ -23,8 +23,13 @@
   }
 
   .ContainMe {
-    padding-top: 48px;
     overflow-y: scroll;
+  }
+
+  .subheading {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   .ProfilePic {
@@ -56,8 +61,13 @@
     padding: 0;
   }
 
-  .Sidebar {
+  .NavBar {
     padding-bottom: 12px;
     height: 64px;
+  }
+
+  .NavListItem {
+    height: 100%;
+    width: 100%;
   }
 }

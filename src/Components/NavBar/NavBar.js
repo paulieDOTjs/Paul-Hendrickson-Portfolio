@@ -1,35 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Sidebar.css";
+import { useLocation } from "react-router-dom";
+import "./NavBar.css";
+import WordNav from "./WordNav";
 
-function Sidebar() {
+function NavBar() {
+  const location = useLocation();
+
   return (
     <div className="PseudoBorder">
-      <div className="Sidebar">
+      <div className="NavBar">
         <ul className="NavList">
-          <li className="NavListItem">
-            <Link className="WordNav" to="/">
-              {/* About */}
-              <span className="UpperCaseLetter">A</span>bout
-            </Link>
-          </li>
-          <li className="NavListItem">
-            <Link className="WordNav" to="/portfolio">
-              {/* Portfolio */}
-              <span className="UpperCaseLetter">P</span>
-              <span style={{ marginLeft: "-4px" }}>ortfolio</span>
-            </Link>
-          </li>
-          {/* <li className="NavListItem">
-            <a
-              className="WordNav"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://drive.google.com/open?id=1Kh5WEMasbLFWzCspyEu7Mf5XuJGByyXu"
-            >
-              <span className="UpperCaseLetter">R</span>esume
-            </a>
-          </li> */}
+          <WordNav word="About" active={location.pathname === "/"} url="/" />
+          <WordNav
+            word="Portfolio"
+            active={location.pathname === "/portfolio"}
+            url="/portfolio"
+          />
           <li className="NavListItem">
             <a
               target="_blank"
@@ -76,4 +62,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default NavBar;
