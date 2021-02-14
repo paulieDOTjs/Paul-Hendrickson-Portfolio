@@ -1,12 +1,12 @@
 @media (min-width: 1px) and (max-width: 700px) {
   .App {
     display: grid;
-    height: calc(100vh - 103px);
+    height: calc(100vh - 107px);
   }
 
   .Main {
     display: grid;
-    height: calc(100vh - 203px - 8px);
+    height: calc(100vh - 207px - 8px);
     overflow-y: scroll;
     h1 {
       margin-bottom: 0;
@@ -19,7 +19,7 @@
 
   .PortfolioMain {
     display: grid;
-    height: calc(100vh - 103px - 8px);
+    height: calc(100vh - 207px - 8px);
     overflow-y: scroll;
   }
 
