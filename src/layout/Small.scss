@@ -6,7 +6,7 @@
 
   .Main {
     display: grid;
-    height: calc(100vh - 103px - 8px);
+    height: calc(100vh - 203px - 8px);
     overflow-y: scroll;
     h1 {
       margin-bottom: 0;
@@ -16,6 +16,7 @@
       margin-top: 1vw;
     }
   }
+
   .PortfolioMain {
     display: grid;
     height: calc(100vh - 103px - 8px);

@@ -5,6 +5,7 @@
   border: 4px white solid;
   border-radius: 16px;
   background-color: rgb(0, 0, 0, 0.7);
+  overflow-x: hidden;
 }
 
 .ProfilePic {
