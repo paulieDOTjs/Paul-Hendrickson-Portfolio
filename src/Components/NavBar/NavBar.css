@@ -1,5 +1,6 @@
 .NavBar {
   background-color: #373d3f;
+  height: 100%;
 }
 
 .NavList {
@@ -38,10 +39,6 @@ a:hover {
 
 .PseudoBorder {
   background-image: linear-gradient(#ff8ae4, #9149d6);
-}
-
-.NavBar {
-  height: 100%;
 }
 
 .PortfolioLink {

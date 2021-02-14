@@ -5,7 +5,6 @@ import NavBar from "./Components/NavBar/NavBar";
 import MainPage from "./Pages/MainPage";
 import PortfolioPage from "./Pages/PortfolioPage";
 
-import "./layout/ExtraSmall.scss";
 import "./layout/Small.scss";
 import "./layout/Medium.scss";
 import "./layout/Large.scss";
