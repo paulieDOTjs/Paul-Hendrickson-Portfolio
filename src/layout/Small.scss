@@ -6,6 +6,7 @@
 
   .Main {
     min-height: calc(1vh - 103px);
+    max-height: calc(1vh - 103px);
     display: grid;
     overflow-y: scroll;
     h1 {
