@@ -9,10 +9,8 @@
     margin: auto;
     grid-template-columns: 1fr 300px;
     display: grid;
-    // max-width: 80%;
     h1 {
       display: flex;
-      // padding-top: 24px;
       font-size: 68px;
       grid-column-start: 1;
     }
@@ -26,8 +24,7 @@
     overflow-y: scroll;
   }
 
-  .subheading {
-    text-align: center;
+  .Subheading {
     margin-top: 48px;
     margin-bottom: 48px;
   }

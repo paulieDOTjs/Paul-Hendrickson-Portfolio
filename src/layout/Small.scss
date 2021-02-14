@@ -5,9 +5,8 @@
   }
 
   .Main {
-    min-height: calc(1vh - 103px);
-    max-height: calc(1vh - 103px);
     display: grid;
+    height: calc(100% - 4px);
     overflow-y: scroll;
     h1 {
       margin-bottom: 0;
