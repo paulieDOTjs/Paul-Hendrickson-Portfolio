@@ -6,7 +6,7 @@ import PortfolioCard from "../Components/PortfolioCard/PortfolioCard";
 
 function MainPage() {
   return (
-    <div className="ContainMe">
+    <div className="PortfolioMain">
       <h1 className="Subheading">Portfolio</h1>
       <div className="PortfolioSection">
         <Tween from={{ opacity: 0 }} stagger={0.5} duration={1.5}>
