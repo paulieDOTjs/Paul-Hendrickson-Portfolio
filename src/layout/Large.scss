@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 96px;
     height: 100vh;
+    overflow-y: scroll;
   }
 
   .Main {
@@ -31,7 +32,7 @@
     align-self: center;
   }
 
-  .ContainMe {
+  .PortfolioMain {
     height: 100vh;
     overflow-y: scroll;
     .Subheading {

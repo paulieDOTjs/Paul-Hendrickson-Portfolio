@@ -2,13 +2,14 @@
   .App {
     display: grid;
     height: 100vh;
-    grid-template-rows: 82px 1fr;
+    grid-template-rows: 96px 1fr;
   }
 
   .Main {
     margin: auto;
     grid-template-columns: 1fr 300px;
     display: grid;
+
     h1 {
       display: flex;
       font-size: 68px;
@@ -20,7 +21,7 @@
     }
   }
 
-  .ContainMe {
+  .PortfolioMain {
     overflow-y: scroll;
   }
 
@@ -46,9 +47,8 @@
   }
 
   .PseudoBorder {
-    padding-bottom: 16px;
     grid-row-start: 1;
-    height: 66px;
+    height: 96px;
   }
 
   .NavList {
@@ -59,8 +59,7 @@
   }
 
   .NavBar {
-    padding-bottom: 12px;
-    height: 64px;
+    height: calc(100% - 4px);
   }
 
   .NavListItem {
