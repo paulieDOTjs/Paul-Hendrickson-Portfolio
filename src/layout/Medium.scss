@@ -9,6 +9,8 @@
     margin: auto;
     grid-template-columns: 1fr 300px;
     display: grid;
+    overflow-y: scroll;
+    height: 100%;
 
     h1 {
       display: flex;
