@@ -12,7 +12,7 @@ function Main() {
         <h1>Hello, my name is Paul.</h1>
       </Tween>
 
-      <Tween from={{ opacity: 0, y: "-20px" }} delay={3}>
+      <Tween from={{ opacity: 0, y: "-20px" }} delay={3.25}>
         <h3>
           I am a full-stack web developer well-versed in HTML, CSS and
           JavaScript and am comfortable handling full stack front and back end
@@ -26,7 +26,7 @@ function Main() {
       <Tween
         from={{ opacity: 0, transform: "translate3d(100vw, 0, 0)" }}
         ease="back.out(1.4)"
-        delay={1.5}
+        delay={1.75}
       >
         <img
           className="ProfilePic"

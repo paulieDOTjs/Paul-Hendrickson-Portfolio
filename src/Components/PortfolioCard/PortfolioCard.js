@@ -18,22 +18,22 @@ function PortfolioCard(props) {
           </a>
         </span>
         <span>
-          {props.props.liveSite === "N/A"
-            ? "Live site: N/A"
-            : " Click here for: " && (
-                <a
-                  className="PortfolioLink"
-                  style={{ textDecoration: "underline" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={props.props.liveSite}
-                >
-                  Live Site
-                </a>
-              )}
+          {props.props.liveSite === "N/A" ? (
+            "Live site: N/A"
+          ) : (
+            <a
+              className="PortfolioLink"
+              style={{ textDecoration: "underline" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.props.liveSite}
+            >
+              Live Site
+            </a>
+          )}
         </span>
       </div>
-      <p style={{ margin: "12px" }}>{props.props.description}</p>
+      <p>{props.props.description}</p>
       <img
         className="PortfolioImage"
         alt={props.props.name}

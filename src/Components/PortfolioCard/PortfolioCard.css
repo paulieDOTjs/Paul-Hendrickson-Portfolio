@@ -1,12 +1,17 @@
 .PortfolioCard {
-  padding: 12px;
-  padding-top: 4px;
+  padding: 8px 24px;
   border: 4px white solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border-radius: 16px;
+}
+
+.PortfolioCard h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .MyRow {
@@ -18,7 +23,7 @@
 }
 
 .PortfolioImage {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .PortfolioCard {
