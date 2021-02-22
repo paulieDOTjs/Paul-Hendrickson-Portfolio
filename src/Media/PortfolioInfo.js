@@ -14,7 +14,7 @@ export const PortfolioInfo = [
     URL: "N/A",
     liveSite: "N/A",
     description:
-      "Focusing more on design this is my design for where I hope to move my TTRPG-Battlemap app.",
+      "Focusing on design this is the concept for the landing page of my TTRPG-Battlemap app.",
     image: "/assets/images/lizards.png",
     technologies: "Figma",
   },
@@ -114,14 +114,5 @@ export const PortfolioInfo = [
       "This is an app to organize your work team. It runs using js.node and is a CLI app. When the index.js file is run the user will be prompted a series of questions to get information about their work team. All employees will have the majority of questions the same, but the user will receive a different question based on what role the employee is fulfilling. Managers will be asked what their office number is. Interns will be asked what school they attend. Engineers will be asked what their github username is. This information will be dynamically created and made into an HTML file named after the name of their team. The layout of the team members depends on the number of members on the team so that there will never be more than 4 employees in any given row, and higher rows will have fewer employees than the lower ones, and they are all as evenly distrubted as possible.",
     image: "/assets/images/templateEngine.gif",
     technologies: "CSS, FS, HTML5, Inquirer, JavaScript",
-  },
-  {
-    name: "Simple Weather App",
-    URL: "https://github.com/paulrobhendrickson/weather-app",
-    liveSite: "https://paulrobhendrickson.github.io/weather-app/",
-    description:
-      "A simple weather app. Users can put in a city of their choosing and the app will generate the current conditions, temperature, humidity wind speed and UV index, as well as a background that fits that current condition. The app will then generate the weather over the next 5 days displaying the date, conditions, temperature, humidity, and changing the background to an image that fits. The app saves past searches in local data and has clickable links on the right hand side to search for those cities again. The app will always open back up with the most recent search.",
-    image: "/assets/images/weatherAppGif.gif",
-    technologies: "CSS, HTML5, JavaScript, JQuery, Weather API",
   },
 ];
