@@ -7,15 +7,19 @@ function PortfolioCard(props) {
       <h1>{props.props.name}</h1>
       <div className="MyRow">
         <span>
-          <a
-            className="PortfolioLink"
-            style={{ textDecoration: "underline" }}
-            target="_blank"
-            rel="noopener noreferrer"
-            href={props.props.URL}
-          >
-            Github
-          </a>
+          {props.props.URL === "N/A" ? (
+            "Github N/A"
+          ) : (
+            <a
+              className="PortfolioLink"
+              style={{ textDecoration: "underline" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.props.URL}
+            >
+              Github
+            </a>
+          )}
         </span>
         <span>
           {props.props.liveSite === "N/A" ? (

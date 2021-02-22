@@ -10,6 +10,15 @@ export const PortfolioInfo = [
       "Axios, bcryptjs, CSS, Express, HTML5, JavaScript, MongoDB, Node.js, Nodemon, Passport, React Router, ReactJS, UUID.",
   },
   {
+    name: "Lizards and Lairs",
+    URL: "N/A",
+    liveSite: "N/A",
+    description:
+      "Focusing more on design this is my design for where I hope to move my TTRPG-Battlemap app.",
+    image: "/assets/images/lizards.png",
+    technologies: "Figma",
+  },
+  {
     name: "Flashcard App",
     URL: "https://github.com/paulrobhendrickson/flashcard-app",
     liveSite: "https://umn-bootcamp-flashcards.netlify.app/home",
