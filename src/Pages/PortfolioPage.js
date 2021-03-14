@@ -75,7 +75,14 @@ function MainPage() {
             cards.map((card) => (
               <Tween from={{ opacity: 0 }} duration={1.5}>
                 <div key={card.name + "wrapper"}>
-                  <PortfolioCard key={card.name} cardInfo={card} />
+                  <PortfolioCard
+                    redirect={redirect}
+                    setRedirect={setRedirect}
+                    setFilters={setFilters}
+                    filters={filters}
+                    key={card.name}
+                    cardInfo={card}
+                  />
                 </div>
               </Tween>
             ))
