@@ -67,10 +67,10 @@ function MainPage() {
         </div>
         <div className="PortfolioSection">
           {cards.length === 0 ? (
-            <h4>
+            <h2>
               I haven't made any projects that do ALL that in one! Maybe try
               removing a filter or two.
-            </h4>
+            </h2>
           ) : (
             cards.map((card) => (
               <Tween from={{ opacity: 0 }} duration={1.5}>
