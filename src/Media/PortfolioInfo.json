@@ -6,7 +6,7 @@
       "liveSite": "https://map-app-dnd.netlify.app/",
       "description": "With this app you can quickly build interactive maps to use during your TTRPGs (table-top roleplaying games), save them for later, and view maps others have made public. This app will keep track of the initiative, move speed, and location of all characters for your TTRPG.",
       "image": "/assets/images/TTRPG-Battlemap.gif",
-      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Passport, React Router-DOM, ReactJS, REST API, UUID"
+      "technologies": "Axios, NPM, Yarn Encryption, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Passport, React Router, ReactJS, REST API"
     },
     {
       "name": "Lizards and Lairs",
@@ -22,7 +22,7 @@
       "liveSite": "https://umn-bootcamp-flashcards.netlify.app/home",
       "description": "A flashcard app I made for my students to go refresh and test themselves on concepts we learned in class",
       "image": "/assets/images/flashcard.png",
-      "technologies": "JavaScript, Lodash, Node-sass, ReactJS, React Router-DOM, SCSS, TypeScript"
+      "technologies": "JavaScript, NPM, Yarn, Lodash, ReactJS, React Router, SCSS, TypeScript"
     },
     {
       "name": "Customer Apollo Federation",
@@ -30,7 +30,7 @@
       "liveSite": "N/A",
       "description": "Proof of concept for working with the Apollo GraphQL Federation technology. With this implementation you can standup several GraphQL servers and access them all with one single endpoint. This implementation features 3 service layers, 3 persistence layers (mocked as REST APIs), and one gateway, totaling 7 servers to combine one single schema and understanding of how a \"customer\" might be viewed enterprise-wide.",
       "image": "/assets/images/customerFed.png",
-      "technologies": "Apollo Federation, Apollo GraphQL, Axios, Express, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Lodash, Microservices, Node.js, TypeScript"
+      "technologies": "Apollo Federation, NPM, Yarn, Apollo GraphQL, Axios, Express, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Lodash, Microservices, Node.js, TypeScript"
     },
     {
       "name": "City Weather Federation",
@@ -38,7 +38,7 @@
       "liveSite": "N/A",
       "description": "My first proof of concept for working with Apollo Federation. This implementation combines together a service for \"city\" and one for \"weather.\" The city implementation is a simple find/filter in an array and based on the name of that city can use the \"weather\" service to get weather information.",
       "image": "/assets/images/city-weather.png",
-      "technologies": "Apollo Federation, Apollo GraphQL, Axios, GraphQL, GraphQL Tools, JavaScript, Lodash, Microservices, Node.js, REST API, TypeScript"
+      "technologies": "Apollo Federation, Apollo GraphQL, NPM, Yarn, Axios, GraphQL, GraphQL Tools, JavaScript, Lodash, Microservices, Node.js, REST API, TypeScript"
     },
     {
       "name": "Apollo Fastify Template",
@@ -46,7 +46,7 @@
       "liveSite": "N/A",
       "description": "A template to easily start with a Fastify implmentation of Apollo GraphQL. Note: This will not run inside a docker container.",
       "image": "/assets/images/template.png",
-      "technologies": "Apollo GraphQL, Fastify, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Node.js, TypeScript"
+      "technologies": "Apollo GraphQL, Fastify, GraphQL, NPM, Yarn, GraphQL Tools, GraphQL Voyager, JavaScript, Node.js, TypeScript"
     },
     {
       "name": "Apollo Express Template",
@@ -54,7 +54,7 @@
       "liveSite": "N/A",
       "description": "A template to easily start with an Express implmentation of Apollo GraphQL.",
       "image": "/assets/images/template.png",
-      "technologies": "Apollo GraphQL, Express, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Node.js, TypeScript"
+      "technologies": "Apollo GraphQL, Express, GraphQL, NPM, Yarn, GraphQL Tools, GraphQL Voyager, JavaScript, Node.js, TypeScript"
     },
     {
       "name": "Apollo Federation Template",
@@ -62,7 +62,7 @@
       "liveSite": "N/A",
       "description": "A template to easily start with Apollo Federation implmentation of Apollo GraphQL. This repo is 2 services one for \"hello\" and one for \"goodbye\" and a gateway that merges them.",
       "image": "/assets/images/federationTemplate.png",
-      "technologies": "Apollo Federation, Apollo GraphQL, Express, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Microservices, Node.js, TypeScript"
+      "technologies": "Apollo Federation, Apollo GraphQL, Express, NPM, Yarn, GraphQL, GraphQL Tools, GraphQL Voyager, JavaScript, Microservices, Node.js, TypeScript"
     },
     {
       "name": "Detsy",
@@ -70,7 +70,7 @@
       "liveSite": "https://detsy2.herokuapp.com/",
       "description": "This is a marketplace app. Using this app users can create a profile, list items to sell, shop for items, and communicate with other users on the site. All products listed by a given user will show up on their own personal page, or you can view other users pages. So if you find a seller you like, you can look for other things they sell. The site also contains a search function, for when you’re looking for that special something for a special someone.",
       "image": "/assets/images/detsy.gif",
-      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MySQLDB, Node.js, Passport, REST API, Sequelize"
+      "technologies": "Axios, Encryption, CSS, Express, HTML, NPM,  JavaScript, MySQLDB, Node.js, Passport, REST API, Sequelize"
     },
     {
       "name": "Doggify",
@@ -94,7 +94,7 @@
       "liveSite": "N/A",
       "description": "This is an app to organize your work team. It runs using js.node and is a CLI app. When the index.js file is run the user will be prompted a series of questions to get information about their work team. All employees will have the majority of questions the same, but the user will receive a different question based on what role the employee is fulfilling. Managers will be asked what their office number is. Interns will be asked what school they attend. Engineers will be asked what their github username is. This information will be dynamically created and made into an HTML file named after the name of their team. The layout of the team members depends on the number of members on the team so that there will never be more than 4 employees in any given row, and higher rows will have fewer employees than the lower ones, and they are all as evenly distrubted as possible.",
       "image": "/assets/images/templateEngine.gif",
-      "technologies": "CSS, FS, HTML, Inquirer, JavaScript"
+      "technologies": "CSS, HTML, Inquirer, NPM, Yarn, JavaScript"
     }
   ]
 }
