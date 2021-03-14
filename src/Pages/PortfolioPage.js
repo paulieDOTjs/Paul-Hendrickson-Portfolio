@@ -30,7 +30,7 @@ function MainPage() {
   useEffect(() => {
     setCards(
       allCards.filter((card) =>
-        filters.every((filter) => card.technologies.includes(filter))
+        filters.some((filter) => card.technologies.includes(filter))
       )
     );
   }, [filters]);
