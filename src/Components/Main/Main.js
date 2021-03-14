@@ -16,8 +16,8 @@ function Main() {
         <Tween from={{ opacity: 0, y: "-20px" }} delay={3.25}>
           <h3>
             I am an innovative and passionate Full-Stack Web Developer with
-            experience in analyzing, designing, programming, and the developing
-            enterprise scale web-based multi-tier applications.
+            experience in analyzing, designing, programming, and developing
+            enterprise scale, multi-tier web applications.
           </h3>
         </Tween>
         <Tween from={{ opacity: 0, y: "-100px" }} delay={4.5}>
