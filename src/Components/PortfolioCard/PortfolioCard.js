@@ -1,51 +1,24 @@
 import React from "react";
 import "./PortfolioCard.css";
+import CardLink from "./CardLink";
 
-function PortfolioCard(props) {
+function PortfolioCard({ cardInfo }) {
   return (
     <div className="PortfolioCard">
-      <h1>{props.props.name}</h1>
+      <h1>{cardInfo.name}</h1>
       <div className="MyRow">
-        <span>
-          {props.props.URL === "N/A" ? (
-            "Github N/A"
-          ) : (
-            <a
-              className="PortfolioLink"
-              style={{ textDecoration: "underline" }}
-              target="_blank"
-              rel="noopener noreferrer"
-              href={props.props.URL}
-            >
-              Github
-            </a>
-          )}
-        </span>
-        <span>
-          {props.props.liveSite === "N/A" ? (
-            "Live site: N/A"
-          ) : (
-            <a
-              className="PortfolioLink"
-              style={{ textDecoration: "underline" }}
-              target="_blank"
-              rel="noopener noreferrer"
-              href={props.props.liveSite}
-            >
-              Live Site
-            </a>
-          )}
-        </span>
+        <CardLink word="Github" url={cardInfo.url} />
+        <CardLink word="Live Site" url={cardInfo.liveSite} />
       </div>
-      <p>{props.props.description}</p>
+      <p>{cardInfo.description}</p>
       <img
         className="PortfolioImage"
-        alt={props.props.name}
-        src={process.env.PUBLIC_URL + props.props.image}
+        alt={cardInfo.name}
+        src={process.env.PUBLIC_URL + cardInfo.image}
       />
       <p>
         <span style={{ fontWeight: "bolder" }}>Technology Used:</span>{" "}
-        {props.props.technologies}
+        {cardInfo.technologies}
       </p>
     </div>
   );

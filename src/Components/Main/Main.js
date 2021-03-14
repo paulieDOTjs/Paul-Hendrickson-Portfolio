@@ -12,16 +12,22 @@ function Main() {
         <h1>Hello, my name is Paul.</h1>
       </Tween>
 
-      <Tween from={{ opacity: 0, y: "-20px" }} delay={3.25}>
-        <h3>
-          I am a full-stack web developer well-versed in HTML, CSS and
-          JavaScript and am comfortable handling full stack front and back end
-          systems. I am also a music arranger, singer, songwriter, pianist, and
-          TTRPG player. I bring an equal degree of passion, creativity, and
-          enthusiasm to all of my projects. I excel most with process
-          management, innovation management, and dealing with ambiguity.
-        </h3>
-      </Tween>
+      <div>
+        <Tween from={{ opacity: 0, y: "-20px" }} delay={3.25}>
+          <h3>
+            I am an innovative and passionate Full-Stack Web Developer with
+            experience in analyzing, designing, programming, and the developing
+            enterprise scale web-based multi-tier applications.
+          </h3>
+        </Tween>
+        <Tween from={{ opacity: 0, y: "-100px" }} delay={4.5}>
+          <h4>
+            ...and a singer, songwriter, pianist, music arranger, storyteller,
+            creator, and a big fan of tabletop roleplaying games (especially
+            Dungeons and Dragons).
+          </h4>
+        </Tween>
+      </div>
 
       <Tween
         from={{ opacity: 0, transform: "translate3d(100vw, 0, 0)" }}
