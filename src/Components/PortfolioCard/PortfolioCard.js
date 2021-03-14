@@ -26,7 +26,7 @@ function PortfolioCard({
         src={process.env.PUBLIC_URL + cardInfo.image}
       />
       <div style={{ textAlign: "center", marginTop: "12px" }}>
-        <p style={{ margin: "8px 0" }}> Technology Used: </p>
+        <h4 style={{ margin: "8px 0" }}> Technology Used: </h4>
         <SkillsList
           redirect={redirect}
           setRedirect={setRedirect}

@@ -73,7 +73,7 @@ function MainPage() {
             </h2>
           ) : (
             cards.map((card) => (
-              <Tween from={{ opacity: 0 }} duration={1.5}>
+              <Tween from={{ opacity: 0 }} duration={2}>
                 <div key={card.name + "wrapper"}>
                   <PortfolioCard
                     redirect={redirect}

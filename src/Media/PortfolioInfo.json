@@ -6,7 +6,7 @@
       "liveSite": "https://map-app-dnd.netlify.app/",
       "description": "With this app you can quickly build interactive maps to use during your TTRPGs (table-top roleplaying games), save them for later, and view maps others have made public. This app will keep track of the initiative, move speed, and location of all characters for your TTRPG.",
       "image": "/assets/images/TTRPG-Battlemap.gif",
-      "technologies": "Axios, NPM, Yarn Encryption, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Passport, React Router, ReactJS, REST API"
+      "technologies": "Axios, NPM, Yarn ,Encryption, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Passport, React Router, ReactJS, REST API"
     },
     {
       "name": "Lizards and Lairs",
