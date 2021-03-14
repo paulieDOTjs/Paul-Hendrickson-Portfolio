@@ -1,0 +1,46 @@
+.SkillsList {
+  max-width: 100%;
+  margin-top: 8px;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+    height: 38px;
+
+    margin: 8px;
+    padding: 3px;
+    border-radius: 19px;
+
+    background-image: linear-gradient(45deg, #ff8ae4, #9149d6);
+    background-color: #ff8ae4;
+
+    list-style: none;
+    button {
+      display: inline-block;
+      height: 32px;
+      min-width: 80px;
+
+      font-weight: bolder;
+      font-size: 20px;
+
+      padding: 3px 12px;
+      border: 1px black solid;
+      border-radius: 16px;
+
+      color: black;
+      background-color: white;
+
+      cursor: pointer;
+    }
+  }
+  .Active {
+    // border: 1px white solid;
+    button {
+      color: white;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+}

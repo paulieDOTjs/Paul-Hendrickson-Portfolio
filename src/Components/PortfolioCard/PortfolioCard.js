@@ -18,7 +18,12 @@ function PortfolioCard({ cardInfo }) {
       />
       <p>
         <span style={{ fontWeight: "bolder" }}>Technology Used:</span>{" "}
-        {cardInfo.technologies}
+        {cardInfo.technologies
+          .split(",")
+          .map((str) => str.trim())
+          .filter((str) => typeof str === "string" && str.length > 1)
+          .sort((a, b) => a.localeCompare(b))
+          .join(", ")}
       </p>
     </div>
   );

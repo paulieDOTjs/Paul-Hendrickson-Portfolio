@@ -25,11 +25,10 @@
 
   .PortfolioMain {
     overflow-y: scroll;
-  }
 
-  .Subheading {
-    margin-top: 48px;
-    margin-bottom: 48px;
+    .Subheading {
+      margin: 48px;
+    }
   }
 
   .ProfilePic {

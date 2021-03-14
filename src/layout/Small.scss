@@ -21,6 +21,9 @@
     display: grid;
     height: calc(100vh - 216px - 8px);
     overflow-y: scroll;
+    .Subheading {
+      margin: 48px 0;
+    }
   }
 
   .ProfilePic {
