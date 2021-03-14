@@ -5,12 +5,14 @@ import CardLink from "./CardLink";
 function PortfolioCard({ cardInfo }) {
   return (
     <div className="PortfolioCard">
-      <h1>{cardInfo.name}</h1>
-      <div className="MyRow">
-        <CardLink word="Github" url={cardInfo.url} />
-        <CardLink word="Live Site" url={cardInfo.liveSite} />
+      <div>
+        <h1>{cardInfo.name}</h1>
+        <div className="MyRow">
+          <CardLink word="Github" url={cardInfo.url} />
+          <CardLink word="Live Site" url={cardInfo.liveSite} />
+        </div>
+        <p>{cardInfo.description}</p>
       </div>
-      <p>{cardInfo.description}</p>
       <img
         className="PortfolioImage"
         alt={cardInfo.name}
