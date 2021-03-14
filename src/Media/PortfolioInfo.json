@@ -22,7 +22,7 @@
       "liveSite": "https://umn-bootcamp-flashcards.netlify.app/home",
       "description": "A flashcard app I made for my students to go refresh and test themselves on concepts we learned in class",
       "image": "/assets/images/flashcard.png",
-      "technologies": "JavaScript, NPM, Yarn, Lodash, ReactJS, React Router, SCSS, TypeScript"
+      "technologies": "JavaScript, CSS, HTML, NPM, Yarn, Lodash, ReactJS, React Router, SCSS, TypeScript"
     },
     {
       "name": "Customer Apollo Federation",
@@ -70,7 +70,7 @@
       "liveSite": "https://detsy2.herokuapp.com/",
       "description": "This is a marketplace app. Using this app users can create a profile, list items to sell, shop for items, and communicate with other users on the site. All products listed by a given user will show up on their own personal page, or you can view other users pages. So if you find a seller you like, you can look for other things they sell. The site also contains a search function, for when you’re looking for that special something for a special someone.",
       "image": "/assets/images/detsy.gif",
-      "technologies": "Axios, Encryption, CSS, Express, HTML, NPM,  JavaScript, MySQLDB, Node.js, Passport, REST API, Sequelize"
+      "technologies": "Axios, Encryption, CSS, Express, HTML, NPM,  JavaScript, SQL, Node.js, Passport, REST API"
     },
     {
       "name": "Doggify",
