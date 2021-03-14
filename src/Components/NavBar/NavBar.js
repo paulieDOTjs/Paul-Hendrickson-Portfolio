@@ -13,9 +13,9 @@ function NavBar() {
         <ul className="NavList">
           <LinkNav word="About" active={location.pathname === "/"} url="/" />
           <LinkNav
-            word="Portfolio"
-            active={location.pathname === "/portfolio"}
-            url="/portfolio"
+            word="Projects"
+            active={location.pathname === "/projects"}
+            url="/projects"
           />
 
           <AnchorNav

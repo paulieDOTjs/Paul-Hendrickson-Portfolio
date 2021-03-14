@@ -1,5 +1,5 @@
 import React from "react";
-import "./PortfolioCard.css";
+import "./PortfolioCard.scss";
 import CardLink from "./CardLink";
 
 function PortfolioCard({ cardInfo }) {

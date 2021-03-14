@@ -6,7 +6,7 @@
       "liveSite": "https://map-app-dnd.netlify.app/",
       "description": "With this app you can quickly build interactive maps to use during your TTRPGs (table-top roleplaying games), save them for later, and view maps others have made public. This app will keep track of the initiative, move speed, and location of all characters for your TTRPG.",
       "image": "/assets/images/TTRPG-Battlemap.gif",
-      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Nodemon, Passport, React Router-DOM, ReactJS, REST API, UUID"
+      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MongoDB, Node.js, Passport, React Router-DOM, ReactJS, REST API, UUID"
     },
     {
       "name": "Lizards and Lairs",
@@ -22,7 +22,7 @@
       "liveSite": "https://umn-bootcamp-flashcards.netlify.app/home",
       "description": "A flashcard app I made for my students to go refresh and test themselves on concepts we learned in class",
       "image": "/assets/images/flashcard.png",
-      "technologies": "Firebase, JavaScript, Lodash, Node-sass, ReactJS, React Router-DOM, SCSS, TypeScript"
+      "technologies": "JavaScript, Lodash, Node-sass, ReactJS, React Router-DOM, SCSS, TypeScript"
     },
     {
       "name": "Customer Apollo Federation",
@@ -70,7 +70,7 @@
       "liveSite": "https://detsy2.herokuapp.com/",
       "description": "This is a marketplace app. Using this app users can create a profile, list items to sell, shop for items, and communicate with other users on the site. All products listed by a given user will show up on their own personal page, or you can view other users pages. So if you find a seller you like, you can look for other things they sell. The site also contains a search function, for when you’re looking for that special something for a special someone.",
       "image": "/assets/images/detsy.gif",
-      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MySQLDB, Node.js, Nodemon, Passport, REST API, Sequelize"
+      "technologies": "Axios, bcryptjs, CSS, Express, HTML, JavaScript, MySQLDB, Node.js, Passport, REST API, Sequelize"
     },
     {
       "name": "Doggify",

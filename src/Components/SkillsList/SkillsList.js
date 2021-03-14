@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Redirect } from "react-router-dom";
 import "./SkillsList.scss";
 
-function SkillsList({ skills, filters, setFilters }) {
-  const [redirect, setRedirect] = useState(false);
-
+function SkillsList({ skills, filters, setFilters, redirect, setRedirect }) {
   const addSkill = (skill) => {
     setFilters([...filters, skill]);
     setRedirect(true);
@@ -16,19 +14,19 @@ function SkillsList({ skills, filters, setFilters }) {
 
   useEffect(() => {
     setRedirect(false);
-  }, [redirect]);
+  }, [redirect, setRedirect]);
 
   return (
     <>
       {redirect ? (
-        <Redirect to={"/portfolio?" + filters.join("&")} />
+        <Redirect to={"/projects?" + filters.join("&")} />
       ) : (
         <ul className="SkillsList">
           {skills.map((skill) =>
             !filters.includes(skill) ? (
               <li key={skill + "li"}>
                 <button
-                  url="/portfolio"
+                  url="/projects"
                   onClick={() => addSkill(skill)}
                   key={skill + "but"}
                 >
@@ -38,7 +36,7 @@ function SkillsList({ skills, filters, setFilters }) {
             ) : (
               <li className="Active" key={skill + "li"}>
                 <button
-                  url={"/portfolio"}
+                  url={"/projects"}
                   onClick={() => removeSkill(skill)}
                   key={skill + "but"}
                 >

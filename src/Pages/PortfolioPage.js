@@ -18,6 +18,7 @@ const skills = [
 ].sort((a, b) => a.localeCompare(b));
 
 function MainPage() {
+  const [redirect, setRedirect] = useState(false);
   const [filters, setFilters] = useState(
     useLocation()
       .search.substring(1)
@@ -35,25 +36,53 @@ function MainPage() {
   }, [filters]);
 
   return (
-    <div className="PortfolioMain">
-      <div className="Subheading">
-        <h1>Featured Projects</h1>
+    <>
+      <div className="PortfolioMain">
+        <div className="Subheading">
+          <h1>Featured Projects I've Created:</h1>
 
-        <div className="row">
-          <h4>Filter by:</h4>
+          <div className="MyRow" style={{ justifyContent: "space-between" }}>
+            <div style={{ width: "102px" }}></div>
+            <h4>Filter by technology:</h4>
+            <ul className="SkillsList">
+              <li>
+                <button
+                  onClick={() => {
+                    setFilters([""]);
+                    setRedirect(true);
+                  }}
+                >
+                  Clear
+                </button>
+              </li>
+            </ul>
+          </div>
+          <SkillsList
+            redirect={redirect}
+            setRedirect={setRedirect}
+            setFilters={setFilters}
+            filters={filters}
+            skills={skills}
+          />
         </div>
-        <SkillsList setFilters={setFilters} filters={filters} skills={skills} />
+        <div className="PortfolioSection">
+          {cards.length === 0 ? (
+            <h4>
+              I haven't made any projects that do ALL that in one! Maybe try
+              removing a filter or two.
+            </h4>
+          ) : (
+            cards.map((card) => (
+              <Tween from={{ opacity: 0 }} duration={1.5}>
+                <div key={card.name + "wrapper"}>
+                  <PortfolioCard key={card.name} cardInfo={card} />
+                </div>
+              </Tween>
+            ))
+          )}
+        </div>
       </div>
-      <div className="PortfolioSection">
-        {cards.map((card) => (
-          <Tween from={{ opacity: 0 }} duration={1.5}>
-            <div key={card.name + "wrapper"}>
-              <PortfolioCard key={card.name} cardInfo={card} />
-            </div>
-          </Tween>
-        ))}
-      </div>
-    </div>
+    </>
   );
 }
 

@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route path="/portfolio" component={PortfolioPage} />
+          <Route path="/projects" component={PortfolioPage} />
         </Switch>
         <NavBar />
       </Router>
