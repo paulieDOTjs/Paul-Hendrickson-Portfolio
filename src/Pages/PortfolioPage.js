@@ -49,8 +49,7 @@ function MainPage() {
           <div className="MyRow" style={{ justifyContent: "space-between" }}>
             <div style={{ width: "102px" }}></div>
             <h4>
-              Filter out projects that don't include any of the following
-              technologies:
+              Filter by technology:
             </h4>
             <ul className="SkillsList">
               <li>
