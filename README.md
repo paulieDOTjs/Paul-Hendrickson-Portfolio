@@ -2,4 +2,4 @@
 
 Live site here:
 
-http://paulhendricksondevelopment.com/
+http://pauliejs.com/
